@@ -1,2 +1,7 @@
 ---
 # defaults file for Core
+- name: "Install all core package"
+   yum:
+     name: httpd
+     state: latest
+     
